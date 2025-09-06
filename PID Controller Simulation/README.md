@@ -17,6 +17,7 @@ A simple C program that simulates a PID (Proportional-Integral-Derivative) contr
 
 ## How to Compile and Run
 
+### Linux/Mac
 1. Clone or download the repository.
 2. Navigate to the project directory.
 3. Compile the program:
@@ -28,6 +29,14 @@ A simple C program that simulates a PID (Proportional-Integral-Derivative) contr
    ./pid_simulation
    ```
 5. Enter the desired motor speed (RPM) when prompted.
+
+### Windows
+1. Install MSYS2 from https://www.msys2.org/
+2. Open MSYS2 MinGW x64 terminal (not the base MSYS terminal)
+3. Install GCC: `pacman -S mingw-w64-x86_64-gcc`
+4. Navigate to the project directory
+5. Compile: `gcc pid_simulation.c -o pid_simulation.exe -lm`
+6. Run: `./pid_simulation.exe`
 
 ## Example Output
 
@@ -46,5 +55,6 @@ Time    Speed   PID Output
 - **PID Controller**: Adjusts the control effort based on the error (setpoint - current speed), its integral, and derivative.
 - **Plant Model**: Simulates motor speed changes based on input, inertia, and load.
 - **Tuning**: Modify Kp, Ki, Kd in the code for different responses (e.g., stability vs. speed).
+
 
 
