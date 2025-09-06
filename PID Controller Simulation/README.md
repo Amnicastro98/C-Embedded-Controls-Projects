@@ -34,7 +34,7 @@ A simple C program that simulates a PID (Proportional-Integral-Derivative) contr
 1. Install MSYS2 from https://www.msys2.org/
 2. Open MSYS2 MinGW x64 terminal (not the base MSYS terminal)
 3. Install GCC: `pacman -S mingw-w64-x86_64-gcc`
-4. Navigate to the project directory
+4. Navigate to the project directory. Example: cd "C:\Users\Username\Desktop ... "
 5. Compile: `gcc pid_simulation.c -o pid_simulation.exe -lm`
 6. Run: `./pid_simulation.exe`
 
