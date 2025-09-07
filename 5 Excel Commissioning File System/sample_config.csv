@@ -1,0 +1,11 @@
+Parameter,Value,Unit,Description,Valid
+motor_speed_rpm,1800,RPM,Motor operating speed,true
+temperature_limit,75,Celsius,Maximum temperature limit,true
+pressure_setpoint,3.2,bar,Pressure control setpoint,true
+flow_rate,15.5,L/min,Flow rate setpoint,true
+voltage_limit,24,V,Maximum voltage limit,true
+current_limit,5.0,A,Maximum current limit,true
+pid_p_gain,2.5,,Proportional gain,true
+pid_i_gain,0.8,,Integral gain,true
+pid_d_gain,0.3,,Derivative gain,true
+sensor_offset,0.1,V,Sensor calibration offset,true
