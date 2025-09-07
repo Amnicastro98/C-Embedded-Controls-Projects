@@ -6,6 +6,10 @@ A comprehensive collection of C programming projects demonstrating embedded syst
 
 This repository contains 5 progressive projects that build upon each other, demonstrating increasingly complex embedded systems concepts from basic control algorithms to advanced fault handling and system integration.
 
+## Project Website
+
+https://amnicastro98.github.io/Embedded-Software-Website/
+
 ## Projects
 
 ### 1. [PID Controller Simulation](./1%20PID%20Controller%20Simulation/)
